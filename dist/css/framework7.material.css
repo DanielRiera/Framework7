@@ -4840,9 +4840,9 @@ body.panel-closing .views {
   transition-property: transform, box-shadow;
 }
 /* === Images Lazy Loading === */
-.lazy-loaded.lazy-fadeIn {
-  -webkit-animation: lazyFadeIn 600ms;
-  animation: lazyFadeIn 600ms;
+.lazy-fadein.lazy-loaded {
+  -webkit-animation: lazyFadeIn 1s;
+  animation: lazyFadeIn 1s;
 }
 @-webkit-keyframes lazyFadeIn {
   from {
